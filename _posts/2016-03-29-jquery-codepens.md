@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #jQuery Codepens
 
 This assignment was to code out a few codepens, focusing on common elements that we can implement in our projects. 

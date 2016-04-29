@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #Diving into design
 
 In week 1 the front-end, backend, and design classes were all together to cover basics, but in week we finally broke out and settled into the design nest. Now that we'd covered the basics of responsive CSS using media queries ([check out my week 1 weekend project here!](https://young-battle.surge.sh/#)), it was time to dove into some advanced CSS topics like specificity, positioning, placeholders, and mixins.

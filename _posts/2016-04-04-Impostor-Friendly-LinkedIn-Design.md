@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #Web App Design
 
 This week's design challenge was, in retrospect, pretty open-ended: redesign the LinkedIn experience using research & existing styleguides. The process included the normal components of sketching, mockups, and coding - with the added on challenge of research and wireframes

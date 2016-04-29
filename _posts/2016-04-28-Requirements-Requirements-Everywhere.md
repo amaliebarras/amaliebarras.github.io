@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #Requirements, Requirements Everywhere
 
 Our client project was to design an app for administrators, staff, volunteers and riders to create, edit, and view schedules and profiles for a therapeutic horse riding center called RED Arena.

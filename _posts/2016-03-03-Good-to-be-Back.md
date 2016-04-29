@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #Good to be back!
 
 It's been a nice month off, but I'm super happy to be back in a routine, productive and learning every day.
