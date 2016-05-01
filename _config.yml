@@ -11,7 +11,7 @@ email: hello@amaliebarras.com
 description: > # this means to ignore newlines until "baseurl:"
   UI Design in Austin, TX
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://amaliebarras.github.io" # the base hostname & protocol for your site
+url: "amaliebarras.github.io" # the base hostname & protocol for your site
 twitter_username: amaliebarras
 github_username:  amaliebarras
 
