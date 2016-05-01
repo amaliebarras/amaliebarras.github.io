@@ -6,19 +6,20 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-family: "Puritan", Helvetica, Arial, sans-serif;
+$base-font-size:   19px;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.4;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #5D5D5D;
+$background-color: #F3F3E8;
+$brand-color:      #FF4B16;
+$line-color: #B4D0F6;
 
-$grey-color:       #828282;
+$grey-color:       #B4D0F6;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -37,6 +38,7 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -46,8 +48,126 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
+
+@import 'base',
+		'grid',
+		'layout',
+		'syntax-highlighting'
 ;
+
+.site-header {
+    position: fixed;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 2px;
+    margin: auto;
+	text-align: center;
+    display: block;
+    z-index: 3;
+	background-color: $brand-color;
+    &:hover {
+        .trigger {
+            display: block;
+        }
+    }
+    p {
+        color: $background-color;
+        margin: 10px 0px 10px 0px;
+    }
+	a {
+		display: block;
+        font-weight: 300;
+        color: white;
+        margin-bottom: 0.5em;
+            &:hover {
+        background-color: darken($brand-color, 15%);
+        }
+	}
+    .trigger {
+        z-index: 1;
+        margin-bottom: 1em;
+        display: none;
+    }
+
+}
+
+.home {
+    margin-top: 3em;
+    .logo-large {
+        margin: auto;
+        height: 200px;
+        display: block;
+        text-indent: -9999px;
+        background: url(../images/logoColor.svg) center;
+        background-size: 300px 200px;
+        background-repeat: no-repeat;
+    }
+    .site-headline {
+        text-align: center;
+        h1 {
+            margin-bottom: 0em;
+            font-weight: 300;
+        }
+        h4 {
+            text-transform: uppercase;
+            font-size: $small-font-size;
+        }
+    }
+    .subhead{
+        padding: 0px 10px;
+        border: solid 6px $line-color;
+        border-style: double none double none;
+        h2 {
+            font-size: 1.75em;
+            margin: 1em 0em;
+        }
+    }
+    .aboutjpg {
+
+        margin: auto;
+        height: 300px;
+        display: block;
+        text-indent: -9999px;
+        background: url(../images/about.jpg) center;
+        background-size: 350px 250px;
+        background-repeat: no-repeat;
+    }
+    .abouttext {
+        padding: 0.5em;
+    }
+}
+
+.site-footer {
+    padding: 0.25em;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    z-index: 3;
+    background-color: $background-color;
+    padding-top: 1em;
+    i {
+        height: 1em;
+        padding: 0 0.5em;
+    }
+    @media screen and (max-width: 650px) {
+        .footerleft {
+            p {
+                font-size: $small-font-size;
+            }
+            width: 50%;
+            float: left;
+                }
+        .footerright{
+            width: 50%;
+            float: left;
+                .icons { 
+                    display: block;
+                    clear: both;
+                }
+            }
+        }
+    }

@@ -3,21 +3,37 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+	<div class = "row">
+		<div class = "col col-12">
+			<div class = "logo-large">
+			</div>
+			<div class = "site-headline">
+				<h1>amalie barras</h1>
+				<h4>data + design in Austin, TX</h4>
+			</div>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col col-12">
+			<div class = "subhead about">
+				<h2>about</h2>
+			</div>
+		</div>
+		<div class = "col col-12">
+			<div class = "aboutjpg">
+			</div>
+			<div class = "abouttext">
+			<h3>yay, you found me </h3>
+			<p>I am a student at <a href = "https://www.theironyard.com/">the Iron Yard</a> in Austin, TX. I use data and design to create smooth experiences that empower users to make discoveries and find insights. 
+			<br><br>
+			I spend a lot of my free time learning new stuff and being around awesome people at workshops, hackathons, and meetups, and I currently serve as membership lead for the local <a hred = "https://www.codeforamerica.org/brigade/">Code for America</a> brigade, <a href = "https://www.open-austin.org">Open Austin.</a>
+			<br><br>
+			When I’m not working, I like to drink coffee and learn about humans, with some urban hiking, <a href = "https://en.wikipedia.org/wiki/Slacklining">slacklining</a>, rock climbing, and sleeping in tents sprinkled in. 
+			<br><br>
+			I laugh at my own jokes. Most of them are dad jokes. 
+			<br><br>
+			And I usually smile a lot.</p>
+			</div>
+		</div>
+	</div>
 </div>
