@@ -52,7 +52,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: lighten ($text-color, 20%);
 }
 
 .post-link {

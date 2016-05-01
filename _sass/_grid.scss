@@ -14,10 +14,12 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 }
 
 .col {
+  box-sizing: border-box;
 }
 
 .row {
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 /* larger grid */
@@ -66,3 +68,51 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
   }
 
 }
+
+/* small grid */
+
+@media (max-width: 650px) {
+
+  .col-sm-1 {
+    @include grid (1);
+  }
+
+  .col-sm-2 {
+    @include grid(2);
+  }
+
+  .col-sm-3 {
+    @include grid(3);
+  }
+
+  .col-sm-4 {
+    @include grid(4);
+  }
+  
+  .col-sm-5 {
+    @include grid(5);
+  }
+  .col-sm-6 {
+    @include grid(6);
+  }
+  .col-sm-7 {
+    @include grid(7);
+  }
+  .col-sm-8 {
+    @include grid(8);
+  }
+  .col-sm-9 {
+    @include grid(9);
+  }
+  .col-sm-10 {
+    @include grid(10);
+  }
+  .col-sm-11 {
+    @include grid(11);
+  }
+  .col-sm-12 {
+    @include grid(12);
+  }
+
+}
+
