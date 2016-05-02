@@ -2,8 +2,6 @@
 layout: post
 ---
 
-#Time to Design
-
 Our first design project was to reorganize the content, and redesign the website for a restaurant that we drew out of a hat. I was fortunate enough to draw Dominican Joe, a coffee shop about 40 feet from my apartment where I've spend many a rainy sunday morning. 
 
 Here is the current [website.](www.dominicanjoe.com) It has so many problems, from the illegible logo typeface, to the nav bar being wayy too complicated, to the lines and lines of body copy, outdated social links, the address as a jpeg... 

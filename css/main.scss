@@ -128,7 +128,7 @@ $on-laptop:        800px;
         margin: 2em auto;
         display: block;
         text-indent: -9999px;
-        background: url({{ site.baseurl }}/images/about.jpg) center;
+        background: url(../images/about.jpg) center;
         background-repeat: no-repeat;
         background-size: 700px 500px;
         max-width: 100%;
@@ -151,7 +151,7 @@ $on-laptop:        800px;
         height: 100px;
         display: block;
         text-indent: -9999px;
-        background: url({{ site.baseurl }}/images/logocolor.svg) center;
+        background: url(../images/logo_color.svg) center;
         background-size: 150px 130px;
         background-repeat: no-repeat;
         }
@@ -172,7 +172,7 @@ $on-laptop:        800px;
             height: 80px;
             display: block;
             text-indent: -9999px;
-            background: url({{ site.baseurl }}/images/logocolor.svg) center;
+            background: url(../images/logo_color.svg) center;
             background-size: 100px 100px;
             background-repeat: no-repeat;
             }
@@ -199,6 +199,35 @@ $on-laptop:        800px;
         h2 {
             font-size: 1.75em;
             margin: 1em 0em;
+        }
+    }
+    .piece {
+        margin-top: 1em;
+        width: 100%;
+        border: solid 4px $grey-color;
+        padding: 0.5em;
+        box-sizing: border-box;
+        overflow: hidden;
+        p {
+            font-size: $small-font-size;
+        }
+        h2 {
+            font-size: 1.75em;
+            margin: 1em 0em;
+            display: block;
+        }
+        h1 {
+            margin-bottom: 0em;
+        }
+        @media screen and (max-width: 650px) {
+            a {
+                padding: 0 0.5em;
+            }
+            i {
+                display: inline;
+                float: left;
+                margin-right: 0.35em;
+            }
         }
     }
 }
@@ -278,7 +307,7 @@ $on-laptop:        800px;
         margin: auto;
         height: 200px;
             text-indent: -9999px;
-            background: url({{ site.baseurl }}/images/busybee.svg) center;
+            background: url(../images/busybee.svg) center;
             background-size: 200px 200px;
             background-repeat: no-repeat;
     }
@@ -298,6 +327,7 @@ $on-laptop:        800px;
 
 
 .site-footer {
+    box-sizing: border-box;
     padding: 0.25em;
     text-align: center;
     width: 100%;

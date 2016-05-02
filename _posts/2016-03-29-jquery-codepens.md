@@ -1,12 +1,11 @@
 ---
 layout: post
+title: Handy jQuery Codepens
 ---
-
-#jQuery Codepens
 
 This assignment was to code out a few codepens, focusing on common elements that we can implement in our projects. 
 
-##Modal
+## Modal
 
 Modals are super useful. When used as bait and switch, they're awful, annoying, and disruptive to the user's experience. But when they are triggered, they do an awesome job of emphasizing content and de-emphasizing everything else. 
 
@@ -15,7 +14,7 @@ Modals are super useful. When used as bait and switch, they're awful, annoying, 
 
 My biggest challenge was to make the modally-ness of this to come across. It actually just looks like an opaque div, but really it is a 40% transparent div, it's just not covering up any noisy content.
 
-##Dropdown
+## Dropdown
 
 Dropdowns seemed like another great choice because they can be used for things from sub-navigation, to creating hierarchy by de-emphasizing the hidden content.
 
@@ -24,7 +23,7 @@ Dropdowns seemed like another great choice because they can be used for things f
 
 The biggest challenge was decide how fast to make the dropdown go. I hate slow animations - nobody has time for that. But also, if timed just right, they can help the user pace their browsing and scan more carefully. 
 
-##Tooltip
+## Tooltip
 
 I also really like tooltips because they are instantaneous learn-more. And hovering is so low-effort. 
 
