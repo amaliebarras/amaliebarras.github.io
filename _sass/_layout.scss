@@ -7,6 +7,7 @@
 
 .site-nav {
 
+
         .trigger {
             clear: both;
             display: none;
@@ -66,6 +67,7 @@
  * Posts
  */
 .post-header {
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 

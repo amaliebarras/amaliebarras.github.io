@@ -191,6 +191,18 @@ $on-laptop:        800px;
         }
 }
 
+.work {
+    .subhead{
+        margin-top: 2em;
+        border: solid 6px $line-color;
+        border-style: double none double none;
+        h2 {
+            font-size: 1.75em;
+            margin: 1em 0em;
+        }
+    }
+}
+
 .toolbox {
     .subhead{
         margin-top: 2em;
