@@ -1,7 +1,7 @@
 ---
 layout: page
 title: work
-permalink: /work
+permalink: /work/
 ---
 
 {% include title.html %}
@@ -18,15 +18,15 @@ permalink: /work
   <div class = "pieces">
     <div class = "row">
       <div class = "col col-12">
-    	 <ul class="post-list">
-        {% for piece in site.posts %}
+        {% for page in 02_work.pages %}
             <li>
+
               <h2>
-                <a class="post-link" href="{{ piece.url | prepend: site.baseurl }}">{{ piece.title }}</a>
+                <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.name }}</a>
               </h2>
             </li>
           {% endfor %}
-        </ul>
+
       </div>
     </div>
   </div>
