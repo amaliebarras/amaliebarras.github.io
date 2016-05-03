@@ -202,6 +202,17 @@ $on-laptop:        800px;
         }
     }
     .piece {
+        .links {
+            div {
+                max-width: 8em;
+                background-color: $background-color;
+                border-radius: 4px;
+                a {
+                    color: $text-color;
+                }
+            }
+            text-align: center;
+        }
         margin-top: 1em;
         width: 100%;
         border: solid 4px $grey-color;
