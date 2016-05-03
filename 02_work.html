@@ -33,7 +33,9 @@ permalink: /work/
 								<a target="_blank" href="{{ info.ghUrl }}"><h1><i class="fa fa-github left" aria-hidden="true"></i></h1>Process & Code on Github</a>
 								<br>
 								<br>
+								{% if info.liveUrl %}
 								<a target="_blank" href="{{ info.liveUrl }}"><h1><i class="fa fa-link" aria-hidden="true"></i></h1>Live Project</a>
+								{% endif %}
 							</div>
 						</div>
 					</div>
