@@ -12,4 +12,4 @@
 ##Logo Sketches
 [Here](https://github.com/amaliebarras/amaliebarras.github.io/blob/master/Design%20Files/Sketches.JPG)
 
-[Here](https://github.com/amaliebarras/amaliebarras.github.io/blob/master/Design%20Files/Sketches2.JPG)
+[Here](https://github.com/amaliebarras/amaliebarras.github.io/blob/master/Design%20Files/Sketches2.JPG) 
