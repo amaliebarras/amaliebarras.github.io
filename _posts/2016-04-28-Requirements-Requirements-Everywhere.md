@@ -5,7 +5,7 @@ title: Requirements! Requirements Everywhere!
 
 Our client project was to design an app for administrators, staff, volunteers and riders to create, edit, and view schedules and profiles for a therapeutic horse riding center called RED Arena.
 
-##Working With A Client
+## Working With A Client
 
 Intuitively, when working with a client, I'd first ask "what are the main reasons for your redesign?" This will allow me to identify what processes need to be optimize when designing. But for this project, first, the technical requirements were gathered by a backend developer, which informed the the design requirements which were gathered by another designer, passed to me, and then I had the opportunity to gather auxillary requirements during a 1:Many client interview. Additional requirements trickled in during the design process as other groups continued to ask questions during. 
 
