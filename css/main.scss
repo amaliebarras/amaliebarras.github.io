@@ -198,6 +198,7 @@ $on-laptop:        800px;
         border-style: double none double none;
         h2 {
             font-size: 1.75em;
+            text-align: left;
             margin: 1em 0em;
         }
     }
@@ -205,8 +206,6 @@ $on-laptop:        800px;
         .links {
             div {
                 max-width: 8em;
-                background-color: $background-color;
-                border-radius: 4px;
                 a {
                     color: $text-color;
                 }
@@ -238,9 +237,10 @@ $on-laptop:        800px;
                 padding: 0 0.5em;
             }
             i {
-                display: inline;
-                float: left;
                 margin-right: 0.35em;
+            }
+            div {
+                margin: auto;
             }
         }
     }
