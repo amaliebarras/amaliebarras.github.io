@@ -9,7 +9,7 @@
 title: amalie barras
 email: hello@amaliebarras.com
 description: > # this means to ignore newlines until "baseurl:"
-  UI Design in Austin, TX
+  amalie barras | UI Design & Data Gal in Austin, TX
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "amaliebarras.github.io" # the base hostname & protocol for your site
 twitter_username: amaliebarras
