@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saving time with Sketch Plugins: Craft Manager
+title: Saving Time With Sketch Plugins: Craft Manager
 ---
 
 # Saving time with Sketch Plugins: Craft Manager
