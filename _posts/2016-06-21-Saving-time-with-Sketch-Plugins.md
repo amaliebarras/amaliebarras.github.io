@@ -14,20 +14,20 @@ I was quickly sold on the usefulness of this tool and wanted to learn it, so I s
 
 ## Tip #1: Dynamic Pictures
 
-![here](http://recordit.co/1xjwGChRf3.gif)
+![here](http://amaliebarras.github.io/images/craft1.gif)
 
 If you're just in a proof of concept phase of designing and don't have content in mind, dynamically populating photos from Unsplash is a great option. 
 
 You can also pull in photos from a local folder, dropbox, or even a live website
 
 ## Tip #2: Dynamic Text
-![here](http://g.recordit.co/IwTutueu1z.gif)
+![here](http://amaliebarras.github.io/images/craft2.gif)
 
 We'll continue to build upon the sample tile with some dynamic text. Similar to pictures, you can also pull this in from the web. I attempted to use my portfolio as dynamic text and it worked great - excited to start experimenting with my designs with my real content. 
 
 ## Tip #3: Duplicate
 
-![here](http://g.recordit.co/8b1jopLsrc.gif)
+![here](http://amaliebarras.github.io/images/craft3.gif)
 
 I added a 30% opacity grey overlay to make the white text stand out more, then created a grouped layer. Once you click on the duplicate panel, edit your gutters and hit 'duplicate content', it auto populates the rest of your screen. 
 
@@ -35,7 +35,7 @@ Now you have a layer called 'duplicate content' selected. You can change the siz
 
 ## Tip #4: Save UI Components
 
-![here](http://g.recordit.co/NPyu1ErALN.gif)
+![here](http://amaliebarras.github.io/images/craft4.gif)
 
 I saved the base page template and the sample tile, and was able to scale my design to a desktop size in less than two minutes.
 
