@@ -2,7 +2,7 @@
 layout: post
 title: Saving Time With Sketch Plugins | Craft Manager
 ---
-# Saving time with Sketch Plugins: Craft Manager
+# Saving time with Sketch Plugins | Craft Manager
 
 My intention with this video was initially to talk about my first experience using [invision](https://projects.invisionapp.com/share/UB7G76ARQ#/151679692_Home). I logged onto Medium to do a bit of research on prototyping tools, and this was one of the first things that popped up. 
 
