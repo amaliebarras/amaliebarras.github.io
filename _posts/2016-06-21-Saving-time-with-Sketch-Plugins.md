@@ -14,7 +14,7 @@ I was quickly sold on the usefulness of this tool and wanted to learn it, so I s
 
 ## Tip #1: Dynamic Pictures
 
-![here](http://g.recordit.co/1xjwGChRf3.gif)
+![here](http://www.catgifpage.com/gifs/310.gif)
 
 If you're just in a proof of concept phase of designing and don't have content in mind, dynamically populating photos from Unsplash is a great option. 
 
