@@ -49,7 +49,7 @@ Then you're doing it wrong! But nevertheless, one thing I like about this tool i
 
 In whatever case, hope you took something away from this! 
 
-###You can download the craft plugin [here](https://www.invisionapp.com/craft)!
+### You can download the craft plugin [here](https://www.invisionapp.com/craft)!
 
 
 
