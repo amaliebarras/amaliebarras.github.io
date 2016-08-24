@@ -15,7 +15,7 @@ permalink: /toolbox/
     </div>
   </div>
   <div class = "content row">
-    <div class = "skillstoolswrapper col-6">
+    <div class = "skillstoolswrapper col-12">
         <div class = "col left col-6">
         <h4>Skills</h4>
           <p>User Research</p>
@@ -58,27 +58,8 @@ permalink: /toolbox/
         <br><P>iTerm</P><br><p>Sublime</p><p>Invision</p><br><br><br><br><br><br><br><p>Ears</p><p>Heart</p><p>Brain</p>
         </div>
     </div>
-    <div class = "col col-6">
-      <div class = "posts">
-      <h4>Posts</h4>
-
-        <ul class="post-list">
-          {% for post in site.posts %}
-            <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-              <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-            </li>
-          {% endfor %}
-        </ul>
-
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-        </div>
-
-      </div>
-    </div>
-        <br><br>
-        <p>View my <a href ="/work/">work</a> or <a href ="/contact">get in touch.</a></p>
+     <h4>
+    <a href ="/about">about</a> | 
+    <a href ="/blog">blog</a>
+    </h4>
 </div>

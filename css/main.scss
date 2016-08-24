@@ -147,8 +147,14 @@ $on-laptop:        800px;
         }
         a {
             color: $text-color;
+                &:hover {
+                color: $line-color;
+            }
         }
         .navlinks {
+            .active {
+                text-decoration: underline;
+            }
             margin: 1em;
             a {
             display: block;
@@ -161,6 +167,9 @@ $on-laptop:        800px;
             text-align: center;
             a {
                 margin-left: 0.5em;
+                &:hover {
+                    text-decoration: none;
+                }
             }
         }
 }
@@ -323,7 +332,7 @@ $on-laptop:        800px;
 
 // blog page
 
-.toolbox {
+.toolbox, .blog {
     .subhead{
         margin-top: 2em;
         border: solid 10px $brand-color;
