@@ -177,7 +177,9 @@ $on-laptop:        800px;
 //about page
 
 .home {
-    margin-top: 3em;
+    @media only screen and (max-width: 916px) {
+            margin-top: 3em;
+        }
     .logo-large {
         margin: auto;
         height: 200px;
@@ -221,7 +223,7 @@ $on-laptop:        800px;
         }
     }
     .aboutjpg {
-        margin: 2em auto;
+        margin-bottom: 1em;
         display: block;
         text-indent: -9999px;
         background: url(../images/about.jpg) center;
@@ -296,15 +298,12 @@ $on-laptop:        800px;
             }
             text-align: center;
         }
-        margin-top: 1em;
+        margin-bottom: 1em;
         width: 100%;
         border: solid 4px $grey-color;
         padding: 0.5em;
         box-sizing: border-box;
         overflow: hidden;
-        img {
-            border-radius: 4px;
-        }
         p {
             font-size: $small-font-size;
         }
@@ -328,12 +327,15 @@ $on-laptop:        800px;
             }
         }
     }
+    h4 {
+        margin-top: 1em;
+    }
 }
 
-// blog page
+// toolbox & blog page
 
-.toolbox, .blog {
-    .subhead{
+.toolbox, .blog { 
+    .subhead {
         margin-top: 2em;
         border: solid 10px $brand-color;
         border-style: double none none none;
@@ -350,9 +352,8 @@ $on-laptop:        800px;
         }
     }
     .content {
-        padding-top: 2em;
         h4 {
-            text-transform: uppercase;
+            margin-top: 1em;
         }
     }
     .skillstoolswrapper {
@@ -371,7 +372,7 @@ $on-laptop:        800px;
         border: solid 4px $grey-color;
         padding: 0.5em;
         box-sizing: border-box;
-        }
+    }
     @media screen and (max-width: 916px) {
         .skillstoolswrapper{
             float: left;
@@ -418,7 +419,8 @@ $on-laptop:        800px;
         }
     }
     .invite {
-        }
+        padding: 0em 1em;
+    }
     .illustration {
         margin: auto;
         height: 200px;
@@ -428,6 +430,7 @@ $on-laptop:        800px;
             background-repeat: no-repeat;
     }
     .form {
+        padding: 0 1em;
         div {
             box-sizing: border-box;
         }
@@ -439,6 +442,12 @@ $on-laptop:        800px;
             margin-bottom: 1em;
         }
     }
+}
+
+// next links
+
+.next {
+    margin-top: 2em;
 }
 
 //footer
