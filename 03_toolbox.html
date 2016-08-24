@@ -1,0 +1,84 @@
+---
+layout: page
+title: toolbox
+permalink: /toolbox/
+---
+
+{% include title.html %}
+
+<div class = "toolbox">
+  <div class = "row">
+    <div class = "col col-12">
+      <div class = "subhead toolbox">
+        <h2>toolbox</h2>
+      </div>
+    </div>
+  </div>
+  <div class = "content row">
+    <div class = "skillstoolswrapper col-6">
+        <div class = "col left col-6">
+        <h4>Skills</h4>
+          <p>User Research</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p>Sketching</p>
+          <br>
+        
+          <p>Wireframing</p>
+          <br>
+          <p>Responsive Web Design</p>
+          <br>
+          <br>
+          <br>
+          <p>Git & Github</p>
+          <br>
+          <p>Prototyping</p>
+          <p class = "indented">HTML</p>
+          <p class = "indented">CSS</p>
+          <p class = "indented">Sass</p>
+          <p class = "indented">jQuery</p>
+          <p class = "indented">jekyll</p>
+          <br>
+          <p>Active Listening </p>
+          <br><br><br>
+        </div>
+        <div class = "col right col-6">
+        <h4>Tools</h4>
+        <p>Google Analytics </p>
+        <p>Survey Monkey</p>
+        <p>Tableau</p>
+        <br>
+        <p> Pen & Paper </p><br>
+        <p>Balsamiq</p><br>
+        <p>Sketch</p>
+        <p>Photoshop</p>
+        <p>Illustrator</p>
+        <br><P>iTerm</P><br><p>Sublime</p><p>Invision</p><br><br><br><br><br><br><br><p>Ears</p><p>Heart</p><p>Brain</p>
+        </div>
+    </div>
+    <div class = "col col-6">
+      <div class = "posts">
+      <h4>Posts</h4>
+
+        <ul class="post-list">
+          {% for post in site.posts %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </div>
+
+      </div>
+    </div>
+        <br><br>
+        <p>View my <a href ="/work/">work</a> or <a href ="/contact">get in touch.</a></p>
+</div>
