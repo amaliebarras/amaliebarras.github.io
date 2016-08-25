@@ -351,7 +351,8 @@ $on-laptop:        800px;
             border-style: none none none none;
         }
     }
-    .content {
+
+    .toolcontent {
         h4 {
             margin-top: 1em;
         }
@@ -373,11 +374,12 @@ $on-laptop:        800px;
         padding: 0.5em;
         box-sizing: border-box;
     }
-    @media screen and (max-width: 916px) {
+    @media screen and (max-width: 650px) {
         .skillstoolswrapper{
             float: left;
             display: block;
             width: 100%;
+            box-sizing: border-box;
         }
         .left {
             width: 50%;
