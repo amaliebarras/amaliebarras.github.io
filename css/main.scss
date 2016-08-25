@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   19px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
@@ -250,7 +250,7 @@ $on-laptop:        800px;
         display: block;
         text-indent: -9999px;
         background: url(../images/logo_color.svg) center;
-        background-size: 150px 130px;
+        background-size: 140px 130px;
         background-repeat: no-repeat;
     }
     .site-headline {
