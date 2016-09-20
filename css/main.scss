@@ -497,3 +497,35 @@ $on-laptop:        800px;
             }
         }
     }
+
+/**
+ * Case Studies
+ */
+
+ .casestudy {
+    .headline {
+
+    margin-top: 2em;
+    border-bottom: solid 4px $grey-color;
+    margin-bottom: 1.5em;
+    }
+    h1, h4 {
+            color: white;
+            background-color: $line-color;
+            padding: 4px;
+            margin-bottom: 0px;
+        }
+     .text {
+        float: left;
+     }
+
+     .images {
+        float: left;
+        img {
+            margin-bottom: 1em;
+            border: solid 4px $line-color;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+     }
+}
