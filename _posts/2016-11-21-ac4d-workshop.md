@@ -3,11 +3,12 @@ layout: post
 title: Designing for Civic Impact Workshop
 ---
 
+
 # ac4d workshop
 
 A few weeks ago, I attended a day-long workshop at the Austin Center for Design. The name of the workshop was called Designing for Civic Impact. I was super excited to spend a Saturday applying the design process to solve for a social issue. It was really cool to know that 30 other people also thought this was a good way to spend a Saturday.
 
-***********
+----------
 
 ## Overview
 
@@ -28,11 +29,10 @@ Hypothesis validation through denerative, form-giving activities
 
 Once you have themes and are able to derive insights through those themes, you have a foundation to build your ideas on. 
 
-
-
 **********
 
 Now that we understood how the day was going to go, we were given our issue to solve. Gentrification.
+
 **********
 
 ## Ethnography
@@ -69,7 +69,9 @@ The first thing you'd want to do is write a **story**. This adds context to an i
 * Come up with an idea based on combining our design patterns (on blue sticky notes) with your insights (on green sticky notes)
 * Pass them around and "yes, and" other peoples ideas
 
+
 **************
+
 
 Although I know the content was very abridged, I feel like this day deepened my understanding of Austin, TX and the design research process as a whole. I wanted to write this blog post because I start a new job tomorrow, where I will be coming in to the second phase of this process, and I feel like going back over this really helped me refresh on that. 
 
