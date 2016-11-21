@@ -305,7 +305,6 @@ $on-laptop:        800px;
             }
         }
         h5 {
-            margin-bottom: 20px;
             text-transform: uppercase;
 
         }
@@ -330,7 +329,7 @@ $on-laptop:        800px;
                 a {
                     float: left;
                     padding-left: 1em;
-                    margin-bottom: 1.5em;
+                    margin-top: 1em;
                     color: $text-color;
                     font-weight: 300;
                     &:hover {
