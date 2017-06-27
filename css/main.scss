@@ -293,7 +293,7 @@ $on-laptop:        800px;
         box-sizing: border-box;
         float: left;
         display: inline;
-        a { 
+        a {
             &:hover {
                 text-decoration: none;
                 color: $line-color;
@@ -311,7 +311,7 @@ $on-laptop:        800px;
         .images {
             -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
-            &:hover { 
+            &:hover {
             -webkit-filter: grayscale(50%);
             filter: grayscale(50%);
             }
@@ -336,7 +336,7 @@ $on-laptop:        800px;
                         color: $line-color;
                         text-decoration: none;
                     }
-                    i { 
+                    i {
                         font-size: 22px;
                         margin-right: 0.5em;
                     }
@@ -373,7 +373,7 @@ $on-laptop:        800px;
 
 // toolbox & blog page
 
-.toolbox, .blog { 
+.toolbox, .blog {
     .subhead {
         margin-top: 2em;
         border: solid 10px $brand-color;
@@ -397,6 +397,7 @@ $on-laptop:        800px;
         }
     }
     .skillstoolswrapper {
+      margin-top: 1em;
         border: solid 4px $grey-color;
         padding: 0.5em;
         box-sizing: border-box;
@@ -529,7 +530,7 @@ $on-laptop:        800px;
         .footerright{
             width: 50%;
             float: left;
-                .icons { 
+                .icons {
                     display: block;
                     clear: both;
                 }
@@ -558,10 +559,11 @@ $on-laptop:        800px;
         float: left;
      }
 
-     .images {
-        float: left;
+     .casestudypic {
+       width: 100%;
         img {
-            margin-bottom: 1em;
+          clear: both;
+            margin: 1em 0;
             border: solid 4px $grey-color;
             box-sizing: border-box;
             padding: 10px;

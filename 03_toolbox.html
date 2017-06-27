@@ -1,7 +1,7 @@
 ---
 layout: page
-title: toolbox
-permalink: /toolbox/
+title: tools
+permalink: /tools/
 ---
 
 {% include title.html %}
@@ -10,55 +10,20 @@ permalink: /toolbox/
   <div class = "row">
     <div class = "col col-12">
       <div class = "subhead toolbox">
-        <h2>toolbox</h2>
+        <h2>tools</h2>
       </div>
     </div>
   </div>
   <div class = "toolcontent row">
-    <div class = "skillstoolswrapper col-12">
-        <div class = "col left col-6">
-        <h4>Skills</h4>
-          <p>User Research</p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <p>Sketching</p>
-          <br>
-
-          <p>Wireframing</p>
-          <br>
-          <p>Responsive Web Design</p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <p>Git & Github</p>
-          <br>
-          <p>Prototyping</p>
-          <p class = "indented">HTML</p>
-          <p class = "indented">CSS</p>
-          <p class = "indented">Sass</p>
-          <p class = "indented">jQuery</p>
-          <p class = "indented">jekyll</p>
-          <br>
-          <p>Listening </p>
-          <br><br><br>
+        {% for info in site.data.stack %}
+        <div class = "skillstoolswrapper col-12">
+          <a class="col-2" href = "{{ info.url }}"><img src ="{{ info.icon }}"></a>
+          <div class = "col-10">
+          <a href = "{{ info.url }}"><h3 class = "title">{{ info.title }}</h3></a>
+          <p>{{ info.description }}</p>
+          </div>
         </div>
-        <div class = "col right col-6">
-        <h4>Tools</h4>
-        <p>Google Analytics </p>
-        <p>Survey Monkey</p>
-        <p>Tableau</p>
-        <br>
-        <p> Pen & Paper </p><br>
-        <p>Balsamiq</p><br>
-        <p>Sketch</p>
-        <p>Photoshop</p>
-        <p>Illustrator</p>
-        <br><P>iTerm</P><br><p>Sublime</p><p>Invision</p><br><br><br><br><br><br><br><p>Ears</p><p>Heart</p><p>Brain</p>
-        </div>
-    </div>
+        {% endfor %}
     <div class = "next">
     <h4>
     <a href ="/about">about</a> |
