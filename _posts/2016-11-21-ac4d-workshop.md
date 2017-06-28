@@ -22,12 +22,12 @@ This is where you go out into the field and get the data. In order to solve a pr
 ### 2. Synthesis
 Making meaning through inference and reframing.
 
-Synthesis is taking research and breaking it down into consumable parts, and building it back up into meaning. When you interview as many people as most projects require, it involves a lot of breaking down in order to find common themes. 
+Synthesis is taking research and breaking it down into consumable parts, and building it back up into meaning. When you interview as many people as most projects require, it involves a lot of breaking down in order to find common themes.
 
 ### 3. Prototyping
 Hypothesis validation through denerative, form-giving activities
 
-Once you have themes and are able to derive insights through those themes, you have a foundation to build your ideas on. 
+Once you have themes and are able to derive insights through those themes, you have a foundation to build your ideas on.
 
 **********
 
@@ -38,16 +38,16 @@ Now that we understood how the day was going to go, we were given our issue to s
 ## Ethnography
 
 ### Research
-An issue consists of many problems, and suring this part, it was time to identify the problems you need to solve. Sometimes you think you know the answers, but you may not. 
+An issue consists of many problems, and suring this part, it was time to identify the problems you need to solve. Sometimes you think you know the answers, but you may not.
 
-### Task: 
-We were to establish focus by brainstorming 5 open-ended questions related to assigned topic. Then, each group as to leave the studio, find experts on our problem, and talk to them. There were three roles. 
- 
+### Task:
+We were to establish focus by brainstorming 5 open-ended questions related to assigned topic. Then, each group as to leave the studio, find experts on our problem, and talk to them. There were three roles.
+
 * Moderator: primary point of communication
 * Photographer: take pictors unobtrusively
 * Notetaker: document and support moderator
 
-We took turns rotating these roles so we all got experience doing it. During this phase, I got the chance to ask why, a lot. The most interesting challenge was to ask questions that were informative, but not leading. This phase takes a long time because finding people who are willing to open up to you that way is difficult. 
+We took turns rotating these roles so we all got experience doing it. During this phase, I got the chance to ask why, a lot. The most interesting challenge was to ask questions that were informative, but not leading. This phase takes a long time because finding people who are willing to open up to you that way is difficult.
 
 ## Synthesis
 
@@ -55,7 +55,7 @@ Once we had talked to a few different people in East Austin, we had information 
 
 ## Prototyping
 
-Prototyping is also iterative process consisting of 
+Prototyping is also iterative process consisting of
 
 * Building models
 * Making things
@@ -64,7 +64,7 @@ Prototyping is also iterative process consisting of
 
 The first thing you'd want to do is write a **story**. This adds context to an insight, puts more detail and reality to the otherwise highly abstract, and allows for a framework to test your concepts. **Concepts** are a combination of a design pattern and an insights, and a **design pattern** is simply something that's working in the world. For example, media streaming, the sharing economy, or digital nomadism. So in order to prototype, we created concepts by combining a set of design patterns and insights.
 
-### Task: 
+### Task:
 
 * Come up with an idea based on combining our design patterns (on blue sticky notes) with your insights (on green sticky notes)
 * Pass them around and "yes, and" other peoples ideas
@@ -73,6 +73,6 @@ The first thing you'd want to do is write a **story**. This adds context to an i
 **************
 
 
-Although I know the content was very abridged, I feel like this day deepened my understanding of Austin, TX and the design research process as a whole. I wanted to write this blog post because I start a new job tomorrow, where I will be coming in to the second phase of this process, and I feel like going back over this really helped me refresh on that. 
+Although I know the content was very abridged, I feel like this day deepened my understanding of Austin, TX and the design research process as a whole. I wanted to write this blog post because I start a new job tomorrow, where I will be coming in to the second phase of this process, and I feel like going back over this really helped me refresh on that.
 
 More on that soon!
