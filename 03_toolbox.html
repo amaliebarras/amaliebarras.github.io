@@ -16,13 +16,31 @@ permalink: /tools/
   </div>
   <div class = "toolcontent row">
         {% for info in site.data.stack %}
-        <div class = "skillstoolswrapper col-12">
-          <a class="col-2" href = "{{ info.url }}"><img src ="{{ info.icon }}"></a>
-          <div class = "col-10">
-          <a href = "{{ info.url }}"><h3 class = "title">{{ info.title }}</h3></a>
-          <p>{{ info.description }}</p>
+          {% if info.area == 'design' %}
+          <div class = "skillstoolswrapper col-12">
+            <a class="col-2" href = "{{ info.url }}"><img src ="{{ info.icon }}"></a>
+            <div class = "col-10">
+            <a href = "{{ info.url }}"><h3 class = "title">{{ info.title }}</h3></a>
+            <p>{{ info.description }}</p>
+            </div>
           </div>
-        </div>
+          {% elsif info.area == 'build' %}
+          <div class = "skillstoolswrapper col-12">
+            <a class="col-2" href = "{{ info.url }}"><img src ="{{ info.icon }}"></a>
+            <div class = "col-10">
+            <a href = "{{ info.url }}"><h3 class = "title">{{ info.title }}</h3></a>
+            <p>{{ info.description }}</p>
+            </div>
+          </div>
+          {% elsif info.area == 'test' %}
+          <div class = "skillstoolswrapper col-12">
+            <a class="col-2" href = "{{ info.url }}"><img src ="{{ info.icon }}"></a>
+            <div class = "col-10">
+            <a href = "{{ info.url }}"><h3 class = "title">{{ info.title }}</h3></a>
+            <p>{{ info.description }}</p>
+            </div>
+          </div>
+          {% endif %}
         {% endfor %}
     <div class = "next">
     <h4>
