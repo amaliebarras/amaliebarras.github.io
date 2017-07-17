@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="148px" height="144px" viewBox="0 0 148 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Dojo 1 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dojo-1-Copy-3">
+            <rect id="Rectangle" stroke="#5A5A5A" stroke-width="4" x="13" y="20" width="121" height="104"></rect>
+            <rect id="Rectangle-3" fill="#BACEF6" x="73.5" y="27" width="49.5" height="90" rx="4"></rect>
+            <path d="M25,30.9984707 C25,28.7901763 26.7912518,27 29.0081112,27 L62.9918888,27 C65.2055075,27 67,28.7924553 67,30.9984707 L67,50.0015293 C67,52.2098237 65.1993813,54 63.00399,54 L40.5,54 L37,57 L33,54 L29,54 C26.790861,54 25,52.2075447 25,50.0015293 L25,30.9984707 Z" id="Rectangle-5" fill="#9D9188"></path>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="77" y="37" width="42" height="12"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="77" y="57" width="42" height="12"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="77" y="77" width="42" height="12"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="77" y="97" width="42" height="12"></rect>
+            <path d="M36.9778055,84.3305078 L40.2999276,81.165 L63.00399,81.165 C64.9272476,81.165 66.5,79.592552 66.5,77.6617908 L66.5,66.0032092 C66.5,64.0717355 64.9276886,62.5 62.9918888,62.5 L29.0081112,62.5 C27.068439,62.5 25.5,64.0673961 25.5,66.0032092 L25.5,77.6617908 C25.5,79.5934911 27.0689034,81.165 29,81.165 L33.1810945,81.165 L36.9778055,84.3305078 Z" id="Rectangle-5" stroke="#9D9188" transform="translate(46.000000, 73.500000) scale(-1, 1) translate(-46.000000, -73.500000) "></path>
+            <path d="M76.5,32 L119.5,32" id="Line" stroke="#2D4F91" stroke-width="2"></path>
+            <path d="M25,93.9947455 C25,91.7885085 26.7912518,90 29.0081112,90 L62.9918888,90 C65.2055075,90 67,91.792232 67,93.9947455 L67,109.090255 C67,111.296492 65.1993813,113.085 63.00399,113.085 L40.5,113.085 L37,117 L33,113.085 L29,113.085 C26.790861,113.085 25,111.292768 25,109.090255 L25,93.9947455 Z" id="Rectangle-5" fill="#9D9188"></path>
+        </g>
+    </g>
+</svg>

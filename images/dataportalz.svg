@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="148px" height="144px" viewBox="0 0 148 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Data Portal 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Data-Portal-3-Copy">
+            <rect id="Rectangle" stroke="#403E79" stroke-width="4" x="13" y="20" width="121" height="104"></rect>
+            <rect id="Rectangle" stroke="#5A5A5A" stroke-width="4" x="13" y="20" width="121" height="104"></rect>
+            <rect id="Rectangle-2" fill="#AF009F" x="26" y="31" width="31" height="23" rx="4"></rect>
+            <text id="pdf" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" fill="#FFFFFF">
+                <tspan x="29" y="47">pdf</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#E6E7F7" x="63" y="40" width="57" height="13" rx="4"></rect>
+            <rect id="Rectangle-2" fill="#364C6A" x="26" y="61" width="31" height="23" rx="4"></rect>
+            <text id="api" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" fill="#FFFFFF">
+                <tspan x="30" y="78">api</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#E04B00" x="26" y="91" width="31" height="23" rx="4"></rect>
+            <text id="csv" font-family="OpenSans-Light, Open Sans" font-size="16" font-weight="300" fill="#FFFFFF">
+                <tspan x="30" y="107">csv</tspan>
+            </text>
+            <path d="M64.5,34 L118.5,34" id="Line" stroke="#5D5D5D" stroke-width="4" stroke-linecap="round"></path>
+            <rect id="Rectangle-2" fill="#E6E7F7" x="63" y="70" width="57" height="13" rx="4"></rect>
+            <path d="M64.5,64 L118.5,64" id="Line" stroke="#5D5D5D" stroke-width="4" stroke-linecap="round"></path>
+            <rect id="Rectangle-2" fill="#E6E7F7" x="63" y="100" width="57" height="13" rx="4"></rect>
+            <path d="M64.5,94 L118.5,94" id="Line" stroke="#5D5D5D" stroke-width="4" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
