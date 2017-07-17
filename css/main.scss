@@ -309,8 +309,6 @@ $on-laptop:        800px;
 
         }
         .images {
-            // -webkit-filter: grayscale(100%);
-            // filter: grayscale(100%);
             &:hover {
             -webkit-filter: grayscale(50%);
             filter: grayscale(50%);
