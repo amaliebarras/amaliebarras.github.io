@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   19px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
@@ -223,15 +223,11 @@ $on-laptop:        800px;
         }
     }
     .aboutjpg {
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
         display: block;
-        text-indent: -9999px;
-        background: url(../images/about.jpg) center;
-        background-repeat: no-repeat;
-        background-size: 700px 500px;
-        max-width: 100%;
-        height: 400px;
-        width: 100%;
+        width: 50%;
+        float: left;
+        margin-right: 1em;
     }
 }
 
@@ -250,7 +246,7 @@ $on-laptop:        800px;
         display: block;
         text-indent: -9999px;
         background: url(../images/logo_color.svg) center;
-        background-size: 150px 130px;
+        background-size: 130px 130px;
         background-repeat: no-repeat;
     }
     .site-headline {
@@ -259,7 +255,7 @@ $on-laptop:        800px;
                 font-size: 21px;
                 margin-bottom: 0em;
                 font-weight: 300;
-                margin-top: 0.75em;
+                margin-top: 0.55em;
             }
             h4 {
                 text-transform: uppercase;
@@ -288,15 +284,64 @@ $on-laptop:        800px;
             border-style: none none none none;
         }
     }
+    .pieces {
+        float: left;
+        box-sizing: border-box;
+        display: inline;
+    }
     .piece {
+        box-sizing: border-box;
+        float: left;
+        display: inline;
+        a {
+            &:hover {
+                text-decoration: none;
+                color: $line-color;
+            }
+            color: $text-color;
+            h3 {
+            margin-bottom: 0px;
+            font-weight: normal;
+            }
+        }
+        h5 {
+            text-transform: uppercase;
+
+        }
+        .images {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            &:hover {
+            -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+            }
+            a {
+            padding: 0;
+            float: left;
+            max-height: 13em;
+            max-width: 50%;
+            }
+            z-index: 1;
+        }
         .links {
             div {
-                max-width: 8em;
+                z-index: 0;
                 a {
+                    float: left;
+                    padding-left: 1em;
+                    margin-top: 1em;
                     color: $text-color;
+                    font-weight: 300;
+                    &:hover {
+                        color: $line-color;
+                        text-decoration: none;
+                    }
+                    i {
+                        font-size: 22px;
+                        margin-right: 0.5em;
+                    }
                 }
             }
-            text-align: center;
         }
         margin-bottom: 1em;
         width: 100%;
@@ -316,12 +361,6 @@ $on-laptop:        800px;
             margin-bottom: 0em;
         }
         @media screen and (max-width: 916px) {
-            a {
-                padding: 0 0.5em;
-            }
-            i {
-                margin-right: 0.35em;
-            }
             div {
                 margin: auto;
             }
@@ -334,7 +373,7 @@ $on-laptop:        800px;
 
 // toolbox & blog page
 
-.toolbox, .blog { 
+.toolbox, .blog {
     .subhead {
         margin-top: 2em;
         border: solid 10px $brand-color;
@@ -351,12 +390,14 @@ $on-laptop:        800px;
             border-style: none none none none;
         }
     }
-    .content {
+
+    .toolcontent {
         h4 {
             margin-top: 1em;
         }
     }
     .skillstoolswrapper {
+      margin-top: 1em;
         border: solid 4px $grey-color;
         padding: 0.5em;
         box-sizing: border-box;
@@ -373,11 +414,12 @@ $on-laptop:        800px;
         padding: 0.5em;
         box-sizing: border-box;
     }
-    @media screen and (max-width: 916px) {
+    @media screen and (max-width: 650px) {
         .skillstoolswrapper{
             float: left;
             display: block;
             width: 100%;
+            box-sizing: border-box;
         }
         .left {
             width: 50%;
@@ -488,10 +530,43 @@ $on-laptop:        800px;
         .footerright{
             width: 50%;
             float: left;
-                .icons { 
+                .icons {
                     display: block;
                     clear: both;
                 }
             }
         }
     }
+
+/**
+ * Case Studies
+ */
+
+ .casestudy {
+    .headline {
+
+    margin-top: 2em;
+    border-bottom: solid 4px $grey-color;
+    margin-bottom: 1.5em;
+    }
+    h1, h4 {
+            color: white;
+            background-color: $line-color;
+            padding: 4px;
+            margin-bottom: 0px;
+        }
+     .text {
+        float: left;
+     }
+
+     .casestudypic {
+       width: 100%;
+        img {
+          clear: both;
+            margin: 1em 0;
+            border: solid 4px $grey-color;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+     }
+}

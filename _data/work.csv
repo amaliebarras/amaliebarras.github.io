@@ -1,8 +1,7 @@
-title,screenshot,liveUrl,ghUrl,projectUrl
-Current Project: Open Data Portal - Web App Redesign,../images/dataportal.png,http://open-austin.org/data-portal,https://github.com/amaliebarras/data-portal-new
-Red Arena Client Project & Style Guide - Web App Design,../images/redarena.png,http://amaliebarras.github.io/redarena-app/,https://github.com/amaliebarras/redarena-app
-Huddle - Mobile App Design,../images/huddle.png,https://invis.io/UB7G76ARQ#/151679692_Home,https://github.com/amaliebarras/kickball-app
-Impostor-Friendly Linkedin - Web App Redesign,../images/linkedin.png,/linkedin-redesign/index2.html,https://github.com/amaliebarras/linkedin-redesign
-Buddha Warhol - Popart CSS Zen Garden,../images/popartzen.png,http://nutritious-canvas.surge.sh/,https://github.com/amaliebarras/popart-css-garden
-Dominican Joe Coffee - Website Redesign,../images/coffee.png,/restaurant-redesign/,https://github.com/amaliebarras/restaurant-redesign
-Obesity Risk Factors in Texas - Data Visualization with Tableau,../images/obesity.png,https://public.tableau.com/views/ObesityRiskFactorsinTexas_0/IncomeAccess?:embed=y&:display_count=yes&:showTabs=y,,
+title,screenshot,casestudy,liveUrl,ghUrl,subtitle
+City of Austin | User Research / UX Design & Code,../images/arr.png,../work/arr.html,http://projects.austintexas.io/resource-recovery/,
+Open Austin Data Portal | UX / UI Design & Code,../images/dataportalz.png,../work/dataportal.html,,https://github.com/amaliebarras/data-portal-new,,
+Dominican Joe Coffee | UX / UI Design & Code,../images/coffeez.png,../work/dominicanjoe.html,http://amaliebarras.github.io/restaurant-redesign/,https://github.com/amaliebarras/restaurant-redesign,
+RED Arena Therapeutic Riding Center | UX Design,../images/redarenaz.png,/work/redarena.html,,https://github.com/amaliebarras/redarena-app,,
+Huddle | Mobile UX / UI Design,../images/huddlez.png,../work/huddle.html,https://invis.io/UB7G76ARQ#/151679692_Home,https://github.com/amaliebarras/kickball-app,
+EA | Infographic Report,../images/eaz.png,/work/eainfographic.html,,,,
