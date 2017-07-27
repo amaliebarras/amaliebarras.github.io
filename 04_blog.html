@@ -16,9 +16,25 @@ permalink: /blog
 
 	<div class = "col col-12">
       <div class = "posts">
-        <p> These posts are a little older. My more up-to-date writing can be found on <a href = "https://medium.com/@AmalieBarras">Medium</a>.
-        <ul class="post-list">
-          {% for post in site.posts %}
+        <p>All my writing is hosted on <a href = "https://medium.com/@AmalieBarras">Medium</a>.</P>
+        <div class="row post-list">
+          {% for e in site.external_feed %}
+            <div class = "col col-5">
+            <p>{{ e.publishedAt }}</p>
+            <a href = "{{ e.url }}"><h3>{{ e.title }}</h3></a>
+
+            <!-- <p>{{ e.feed_content }}</p> -->
+
+          </div>
+          {% endfor %}
+      </div>
+        <section class="special">
+          <ul class="actions">
+          <li><a href="{{ site.baseurl }}{{ e.url }}" class="button {% cycle '', 'alt'%}"><p>Read More</p></a></li>
+          </ul>
+        </section>
+
+          <!-- {% for post in site.posts %}
             <li>
               <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -26,10 +42,10 @@ permalink: /blog
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h2>
             </li>
-          {% endfor %}
+          {% endfor %} -->
         </ul>
 
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
       </div>
   </div>
 

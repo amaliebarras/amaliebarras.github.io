@@ -17,3 +17,8 @@ github_username:  amaliebarras
 
 # Build settings
 markdown: kramdown
+
+# Collections for Medium script
+
+collections:
+  - external_feed
