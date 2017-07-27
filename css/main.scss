@@ -324,6 +324,7 @@ $on-laptop:        800px;
                 z-index: 0;
                 a {
                     float: left;
+                    clear: both;
                     padding-left: 1em;
                     margin-top: 1em;
                     color: $text-color;
