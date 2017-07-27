@@ -199,7 +199,6 @@ $on-laptop:        800px;
             font-weight: 300;
         }
         h4 {
-            text-transform: uppercase;
             font-size: $small-font-size;
         }
         @media only screen and (min-width: 916px) {
@@ -258,7 +257,6 @@ $on-laptop:        800px;
                 margin-top: 0.55em;
             }
             h4 {
-                text-transform: uppercase;
                 font-size: $small-font-size;
             }
     }
@@ -412,6 +410,15 @@ $on-laptop:        800px;
         padding: 0.5em;
         box-sizing: border-box;
     }
+    .illustration {
+        margin: auto;
+        height: 200px;
+            text-indent: -9999px;
+            background: url(../images/busybee.svg) center;
+            background-size: 200px 200px;
+            background-repeat: no-repeat;
+    }
+
     @media screen and (max-width: 650px) {
         .skillstoolswrapper{
             float: left;
