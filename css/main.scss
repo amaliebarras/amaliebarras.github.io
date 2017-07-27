@@ -125,7 +125,7 @@ $on-laptop:        800px;
     float: left;
     text-align: center;
         .logo-large {
-            margin-top: 1em;
+            // margin-top: 1em;
             height: 130px;
             display: block;
             text-indent: -9999px;
@@ -164,13 +164,25 @@ $on-laptop:        800px;
             }
         }
         .icons {
+          .iconwrapper {
+            height: 6em;
             text-align: center;
+              p {
+                font-size: 1em;
+                color: #fff;
+                background-color: $line-color;
+              }
+              border: solid 3px $grey-color;
             a {
-                margin-left: 0.5em;
+              font-size: 1.25em;
+                padding: 0.5em;
+                color: $line-color;
                 &:hover {
                     text-decoration: none;
+                    color: $grey-color;
                 }
-            }
+          }
+          }
         }
 }
 
@@ -502,47 +514,29 @@ $on-laptop:        800px;
 
 
 .site-footer {
-    box-sizing: border-box;
-    padding: 0.25em;
-    text-align: center;
-    width: 100%;
-    display: block;
-    background-color: $background-color;
-    padding-top: 1em;
-    p {
-        padding-top: 0.5em;
-        max-width: 250px;
-    }
+  box-sizing: border-box;
+  padding: 0.25em;
+  display: block;
+  background-color: $grey-color;
+  padding-top: 1em;
+  p {
+      padding-top: 0.5em;
+  }
+  .footerleft {
+    border-bottom: solid 3px $line-color;
+  }
+  .icons {
     i {
-        padding: 0 0.45em;
-        color: $text-color;
-        text-align: center;
+        padding: 0 1em 0 0;
         margin: auto;
     }
-    .icons {
-        text-align: right;
-    }
+  }
+
+
     @media screen and (min-width: 916px) {
         display: none;
     }
-    @media screen and (max-width: 916px) {
-        .footerleft {
-            p {
-                font-size: $small-font-size;
-            }
-            width: 50%;
-            float: left;
-            }
-        .footerright{
-            width: 50%;
-            float: left;
-                .icons {
-                    display: block;
-                    clear: both;
-                }
-            }
-        }
-    }
+}
 
 /**
  * Case Studies
