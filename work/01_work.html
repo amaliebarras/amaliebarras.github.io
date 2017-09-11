@@ -29,26 +29,23 @@ permalink: /
 						<div class="col-6 images">
 							<a href = "{{ info.casestudy }}"><img src="{{ info.screenshot }}" /></a>
 						</div>
-						<div class="col-6 description">
-							<p>{{ info.description }}"</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-6 links">
-							<div class = "casestudy col">
-							{% if info.casestudy %}
-							<a target="_blank" href="{{ info.casestudy }}"><i class="fa fa-plus left" aria-hidden="true"></i>Read My Case Study</a>
-							{% endif %}
-							</div>
-							<div class = "ghurl col">
-							{% if info.ghUrl %}
-							<a target="_blank" href="{{ info.ghUrl }}"><i class="fa fa-github left" aria-hidden="true"></i>Code & Docs on Github</a>
-							{% endif %}
-							</div>
-							<div class = "col">
-							{% if info.liveUrl %}
-							<a target="_blank" href="{{ info.liveUrl }}"><i class="fa fa-link liveurl" aria-hidden="true"></i>Live Project</a>
-							{% endif %}
+						<div class="col-6">
+							<div class="row links">
+								<div class = "casestudy col">
+								{% if info.casestudy %}
+								<a target="_blank" href="{{ info.casestudy }}"><i class="fa fa-plus left" aria-hidden="true"></i>Case Study</a>
+								{% endif %}
+								</div>
+								<div class = "ghurl col">
+								{% if info.ghUrl %}
+								<a target="_blank" href="{{ info.ghUrl }}"><i class="fa fa-github left" aria-hidden="true"></i>Docs & Code on Github</a>
+								{% endif %}
+								</div>
+								<div class = "col">
+								{% if info.liveUrl %}
+								<a target="_blank" href="{{ info.liveUrl }}"><i class="fa fa-link liveurl" aria-hidden="true"></i>Live Project</a>
+								{% endif %}
+								</div>
 							</div>
 						</div>
 					</div>
