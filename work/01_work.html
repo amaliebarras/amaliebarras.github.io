@@ -6,13 +6,6 @@ permalink: /
 
 {% include title.html %}
 <div class="work">
-	<div class="row">
-		<div class="col col-12">
-			<div class="subhead work">
-				<h2>work</h2>
-			</div>
-		</div>
-	</div>
 
 
 	<div class="pieces">
@@ -26,12 +19,12 @@ permalink: /
 						</div>
 					</div>
 					<div class="row">
-						<div class="images">
+						<div class="col-12 images">
 							<a href = "{{ info.casestudy }}"><img src="{{ info.screenshot }}" /></a>
 						</div>
 						<div class="col-6">
 							<div class="row links">
-								<div class = "casestudy col">
+								<!-- <div class = "casestudy col">
 								{% if info.casestudy %}
 								<a target="_blank" href="{{ info.casestudy }}"><i class="fa fa-plus left" aria-hidden="true"></i>Case Study</a>
 								{% endif %}
@@ -45,7 +38,7 @@ permalink: /
 								{% if info.liveUrl %}
 								<a target="_blank" href="{{ info.liveUrl }}"><i class="fa fa-link liveurl" aria-hidden="true"></i>Live Project</a>
 								{% endif %}
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>

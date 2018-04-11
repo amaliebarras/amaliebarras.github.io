@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="662px" height="424px" viewBox="0 0 662 424" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.7%" y="-0.7%" width="101.4%" height="101.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="-0.568084732 0.599482067" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-0.7%" y="-0.7%" width="101.4%" height="101.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="-0.568084732 0.599482067" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <path d="M195,393 C209.65997,393 227.363563,362.324373 241,359 C273.694875,351.029447 309.802614,357.798273 332,340.5 C362.976321,316.360363 374,263.050093 374,214 C374,176.396008 351.810529,153.306895 332,124.5 C299.729662,77.575042 256.254978,35 195,35 C175.971502,35 156,35 141.063211,49.0211826 C120.239147,68.5687579 91.8926758,77.9683128 71.1231036,84.7885328 C36.7462073,96.0770657 16,163.213721 16,214 C16,242.489165 38.1589715,265.089814 50,289 C70.2813666,329.953473 88.2506454,367.401302 127,384.5 C144.131535,392.059531 173.426564,393 195,393 Z" id="Oval" fill="#F3AA7E" opacity="0.552366395" filter="url(#filter-1)"></path>
+            <path d="M462,393 C476.65997,393 494.363563,362.324373 508,359 C540.694875,351.029447 576.802614,357.798273 599,340.5 C629.976321,316.360363 641,263.050093 641,214 C641,176.396008 618.810529,153.306895 599,124.5 C566.729662,77.575042 523.254978,35 462,35 C442.971502,35 423,35 408.063211,49.0211826 C387.239147,68.5687579 358.892676,77.9683128 338.123104,84.7885328 C303.746207,96.0770657 283,163.213721 283,214 C283,242.489165 305.158971,265.089814 317,289 C337.281367,329.953473 355.250645,367.401302 394,384.5 C411.131535,392.059531 440.426564,393 462,393 Z" id="Oval-Copy" fill="#192052" opacity="0.552366395" filter="url(#filter-2)" transform="translate(462.000000, 214.000000) rotate(90.000000) translate(-462.000000, -214.000000) "></path>
+            <text id="d-/-d" fill="#FFFFFF" font-family="AbrilFatface-Regular, Abril Fatface" font-size="180" font-weight="700">
+                <tspan x="152" y="270">d / d</tspan>
+            </text>
+            <text id="amalie-barras" font-family="JosefinSans, Josefin Sans" font-size="90" font-weight="normal" fill="#4F557F">
+                <tspan x="89" y="489">amalie barras</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

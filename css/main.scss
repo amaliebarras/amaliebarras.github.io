@@ -4,22 +4,31 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-$base-font-size:   19px;
-$base-font-weight: 300;
+$base-font-family: 'Avenir', Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 100;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.4;
 
 $spacing-unit:     30px;
 
-$text-color:       #5D5D5D;
-$background-color: #F3F3E8;
-$brand-color:      #FF4B16;
-$line-color:    #B4D0F6;
+$text-color:       #232323;
+$background-color: #F8F6F6;
+$brand-color:      #4F557F;
+$line-color:    #8387A2;
 
-$grey-color:       #E7E8F7;
+$white: #fff;
+$grey-color:       #F8F6F6;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+h1 {
+  font-style: italic;
+}
+
+p {
+  line-height: 155%;
+}
 
 // Width of the content area
 $content-width:    800px;
@@ -114,11 +123,11 @@ $on-laptop:        800px;
 // Desktop Header
 
 .left-header {
-    border-right: solid 4px $grey-color;
+    background-color: $background-color;
     box-sizing: border-box;
     padding: 1em;
-    margin-top: 1em;
     width: 30%;
+    height: 100%;
     position: fixed;
     left: 0;
     top: 0;
@@ -129,33 +138,35 @@ $on-laptop:        800px;
             height: 130px;
             display: block;
             text-indent: -9999px;
-            background: url(../images/logo_color.svg) center;
+            background: url(../images/logo_large.svg) center;
             background-size: 300px 130px;
             background-repeat: no-repeat;
         }
         .site-headline {
             h1 {
                 margin-bottom: 0em;
+                color: $brand-color;
             }
             h4 {
                 font-size: 16px;
                 padding-top: 0em;
                 margin-bottom: 1em;
+                color: $text-color;
             }
-            border: solid 10px $brand-color;
-            border-style: none none double none;
+            border-bottom: solid 3px $brand-color;
         }
         a {
-            color: $text-color;
+            color: $brand-color;
                 &:hover {
-                color: $line-color;
+                background-color: $white;
+                text-decoration: none;
             }
         }
         .navlinks {
             .active {
                 text-decoration: underline;
             }
-            margin: 1em;
+            margin: 2em 1em;
             a {
             display: block;
             font-weight: 300;
@@ -165,21 +176,20 @@ $on-laptop:        800px;
         }
         .icons {
           .iconwrapper {
+            margin-top: 2em;
             height: 6em;
             text-align: center;
               p {
                 font-size: 1em;
-                color: #fff;
-                background-color: $line-color;
               }
-              border: solid 3px $grey-color;
             a {
               font-size: 1.25em;
                 padding: 0.5em;
-                color: $line-color;
+                color: $brand-color;
                 &:hover {
+                    background-color: $background-color;
                     text-decoration: none;
-                    color: $grey-color;
+                    color: $line-color;
                 }
           }
           }
@@ -197,7 +207,7 @@ $on-laptop:        800px;
         height: 200px;
         display: block;
         text-indent: -9999px;
-        background: url(../images/logo_color.svg) center;
+        background: url(../images/logo_large.svg) center;
         background-size: 300px 200px;
         background-repeat: no-repeat;
         @media only screen and (min-width: 916px) {
@@ -233,11 +243,15 @@ $on-laptop:        800px;
             padding: 0.25em 0.5em;
         }
     }
+    h3 {
+      font-style: italic;
+      font-size: 24px;
+      color: $brand-color;
+    }
     .aboutjpg {
         margin-bottom: 0.5em;
         display: block;
         width: 50%;
-        float: left;
         margin-right: 1em;
     }
 }
@@ -253,10 +267,10 @@ $on-laptop:        800px;
     .logo-small {
         margin-top: 2em;
         margin: auto;
-        height: 100px;
+        height: 80px;
         display: block;
         text-indent: -9999px;
-        background: url(../images/logo_color.svg) center;
+        background: url(../images/logo_large.svg) center;
         background-size: 130px 130px;
         background-repeat: no-repeat;
     }
@@ -300,6 +314,7 @@ $on-laptop:        800px;
         display: inline;
     }
     .piece {
+      text-align: center;
         box-sizing: border-box;
         float: left;
         display: inline;
@@ -308,15 +323,15 @@ $on-laptop:        800px;
                 text-decoration: none;
                 color: $line-color;
             }
-            color: $text-color;
+            color: $brand-color;
             h3 {
             margin-bottom: 0px;
-            font-weight: normal;
+            font-weight: bold;
             }
         }
         h5 {
             text-transform: uppercase;
-
+            color: $text-color;
         }
         .images {
             &:hover {
@@ -325,11 +340,13 @@ $on-laptop:        800px;
             }
             a {
             padding: 0;
-            float: left;
-            max-height: 13em;
-            max-width: 50%;
+            // float: left;
+            text-align: center;
             }
             z-index: 1;
+            svg {
+              width: 200%;
+            }
         }
         .links {
             div {
@@ -352,10 +369,9 @@ $on-laptop:        800px;
                 }
             }
         }
-        margin-bottom: 1em;
+        margin: 1em 0em;
+        border-bottom: solid 1px $grey-color;
         width: 100%;
-        border: solid 4px $grey-color;
-        padding: 0.5em;
         box-sizing: border-box;
         overflow: hidden;
         p {
@@ -407,7 +423,6 @@ $on-laptop:        800px;
     }
     .skillstoolswrapper {
       margin-top: 1em;
-        border: solid 4px $grey-color;
         padding: 0.5em;
         box-sizing: border-box;
         p {
@@ -461,6 +476,8 @@ $on-laptop:        800px;
 // contact page
 
 .contact {
+
+      margin-top: 5em;
     .subhead{
         margin-top: 2em;
         margin-bottom: 1em;
@@ -492,6 +509,8 @@ $on-laptop:        800px;
     .form {
         padding: 0 1em;
         div {
+
+          background-color: $background-color;
             box-sizing: border-box;
         }
         display: none;
