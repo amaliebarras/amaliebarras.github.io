@@ -1,15 +1,19 @@
 # Personal Branding Research
 
 ## Personal Wordlist
-[Here](amaliebarras.github.io/Design Files/PersonalWordlist.png)
+
+[Here](http://amaliebarras.github.io/Design Files/PersonalWordlist.png)
 
 ## This not That
-[Here](amaliebarras.github.io/Design Files/ThisnotThat.png)
+
+[Here](http://amaliebarras.github.io/Design Files/ThisnotThat.png)
 
 ## Survey
-[Here](amaliebarras.github.io/Design Files/Survey.png)
+
+[Here](http://amaliebarras.github.io/Design Files/Survey.png)
 
 ## Logo Sketches
-[Here](amaliebarras.github.io/Design Files/Sketches.JPG)
 
-[Here](amaliebarras.github.io/Design Files/Sketches2.JPG) 
+[Here](http://amaliebarras.github.io/Design Files/Sketches.JPG)
+
+[Here](http://amaliebarras.github.io/Design Files/Sketches2.JPG) 
