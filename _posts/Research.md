@@ -16,4 +16,4 @@
 
 [Here](http://amaliebarras.github.io/Design%20Files/Sketches.JPG)
 
-[Here](http://amaliebarras.github.io/Design%20Files/Sketches2.JPG) 
+[Here](http://amaliebarras.github.io/Design%20Files/Sketches2.JPG)
