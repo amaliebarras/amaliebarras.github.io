@@ -1,8 +1,8 @@
-#OpenData.Rocks Questionaire
+#Questionaire
 
 ##General Information
 
-What is the name of your company and your current or intended URL? 
+What is the name of your company and your current or intended URL?
 
 ```
 Amalie Barras | Data + Design
@@ -10,19 +10,19 @@ www.amaliebarras.com
 ```
 
 
-What is your intended launch date for the new site? 
+What is your intended launch date for the new site?
 
 ```
 Jul 20, 2016
 ```
 
-Do you have a specific budget range in mind for this project? 
+Do you have a specific budget range in mind for this project?
 
 ```
 All of next week
 ```
 
-Reasons for your site design or re-design? 
+Reasons for your site design or re-design?
 
 ```
 My branding doesn't read "data girl"
@@ -36,7 +36,7 @@ The font isn't very readable
 
 ##Audience/Desired Action
 
-Describe a typical user coming to your site. (include demographics, age, occupation, sex, and other relevant factors) 
+Describe a typical user coming to your site. (include demographics, age, occupation, sex, and other relevant factors)
 
 ```
 Matt, 35, designer
@@ -44,7 +44,7 @@ Met him at a thing, told him I like data
 He goes to my portfolio to view my work
 ```
 
-What is the primary “action” the user should take when coming to your site? (purchase, become a member, search for information, contact you, etc.) 
+What is the primary “action” the user should take when coming to your site? (purchase, become a member, search for information, contact you, etc.)
 
 ```
 The user should view a work page
@@ -120,7 +120,7 @@ Existing Color
 New Type
 ```
 
-How will the content of this site (along with functionality and navigation) expand or differ from your current site? 
+How will the content of this site (along with functionality and navigation) expand or differ from your current site?
 
 ```
 I want to try a fixed left nav
