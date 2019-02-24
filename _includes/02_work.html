@@ -1,0 +1,19 @@
+<div class="row work">
+
+		<h2><b>work</b></h2>
+			<div class="pieces">
+					<div class="row">
+						  {% for info in site.data.work %}
+									<div class="piece col col-6">
+												<a target = "blank" href = "{{ info.casestudy }}">
+														<img src="{{ info.screenshot }}" />
+														<h4>{{ info.title }}</h4>
+														<h6>{{ info.subtitle }}</h6>
+														<h5>{{ info.headline }}</h5>
+												</a>
+									</div>
+						  {% endfor %}
+					</div>
+			</div>
+
+	</div>

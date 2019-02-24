@@ -1,62 +1,66 @@
-<header class="site-header">
-    <div class = "row">
-      <div class = "menu">
-          <p>MENU  <i class="fa fa-caret-down" aria-hidden="true"></i> </p>
+<!-- // Mobile Nav -->
 
-          <div class="trigger">
-            {% for my_page in site.pages %}
-              {% if my_page.title %}
-              <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              {% endif %}
-            {% endfor %}
+<header class="site-header">
+      <div class = "row">
+          <div class = "menu">
+                <p>menu  <i class="fa fa-caret-down" aria-hidden="true"></i> </p>
+                <div class="trigger">
+                    <a href="{{ site.baseurl }}/#about">about</a>
+                    <a href="{{ site.baseurl }}/#work">work</a>
+                    <a href="{{ site.baseurl }}/#process">process</a>
+                    <a href="{{ site.baseurl }}/#contact">contact</a>
+                </div>
           </div>
       </div>
-    </div>
 </header>
 
+<!-- // Desktop Nav -->
+
 <header class = "left-header">
-  <div class = "left-header-wrapper">
-    <div class = "row">
-      <div class = "col col-12">
-        <div class = "logo-large">
+      <div class = "left-header-wrapper">
+              <div class = "row">
+                      <div class = "col col-12">
+
+                          <div class = "logo-large">
+                          </div>
+
+                          <div class = "site-headline">
+                            <h1>amalie barras</h1>
+                            <h4>data / design</h4>
+                          </div>
+
+                          <nav class = "navlinks">
+                            <a href="{{ site.baseurl }}/#about">about</a>
+                            <a href="{{ site.baseurl }}/#work">work</a>
+                            <a href="{{ site.baseurl }}/#process">process</a>
+                            <a href="{{ site.baseurl }}/#contact">contact</a>
+                          </nav>
+
+                          <span class = "icons">
+                              <div class = "iconwrapper">
+                                    <div class = "row">
+                                      <a href = "mailto:hello@amaliebarras.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                                      <a href = "http://twitter.com/amaliebarras"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                      <a href = "http://linkedin.com/in/amaliebarras"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                      <a href = "http://github.com/amaliebarras"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                    </div>
+
+                                    <div class = "row">
+                                      <a href = "https://dribbble.com/AmalieBarras"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                      <a href = "https://www.codepen.io/AmalieBarras"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+                                      <a href = "https://public.tableau.com/profile/amalie.barras#!/"><i class="fa fa-area-chart" aria-hidden="true"></i></a>
+                                      <a href = "http://medium.com/@amaliebarras"><i class="fa fa-medium" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </span>
+
+                        </div>
+                </div>
         </div>
-        <div class = "site-headline">
-          <h1>amalie barras</h1>
-          <h4>data / design in Boulder, CO</h4>
-        </div>
-        <nav class = "navlinks">
-              {% for my_page in site.pages %}
-                {% if my_page.title %}
-                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-                {% endif %}
-              {% endfor %}
-        </nav>
-        <div class = "footerright">
-            <span class = "icons">
-          <div class = "iconwrapper">
-          <div class = "row">
-            <a href = "mailto:hello@amaliebarras.com"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a href = "http://twitter.com/amaliebarras"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href = "http://linkedin.com/in/amaliebarras"><i class="fa fa-linkedin" aria-hidden="true"></i>
-            <a href = "http://github.com/amaliebarras"><i class="fa fa-github" aria-hidden="true"></i></a>
-          </div>
-          <div class = "row">
-            <a href = "https://dribbble.com/AmalieBarras"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-            <a href = "https://www.codepen.io/AmalieBarras"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-            <a href = "https://public.tableau.com/profile/amalie.barras#!/"><i class="fa fa-area-chart" aria-hidden="true"></i></a>
-            <a href = "http://medium.com/@amaliebarras"><i class="fa fa-medium" aria-hidden="true"></i></a>
-          </div>
-        </div>
-            </span>
-        </div>
-      </div>
-    </div>
-  </div>
 </header>
 
 <script>
     $('.menu').click(function(){
-    $('.trigger').slideToggle(700);
+    $('.trigger').slideToggle(900);
   });
-
 </script>

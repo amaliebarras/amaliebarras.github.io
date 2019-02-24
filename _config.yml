@@ -9,7 +9,7 @@
 title: amalie barras | portfolio
 email: hello@amaliebarras.com
 description: > # this means to ignore newlines until "baseurl:"
-  amalie barras | data + design
+  amalie barras | data / design
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "amaliebarras.com" # the base hostname & protocol for your site
 twitter_username: amaliebarras

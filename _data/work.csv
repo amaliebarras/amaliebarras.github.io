@@ -1,8 +1,8 @@
-title,screenshot,casestudy,liveUrl,ghUrl,subtitle
-Cognizant Accelerator,../images/accelerator-logo.png,../work/cognizant.html,https://lp02-team-5-mock-client.herokuapp.com/,,UX Design | UI & Code
-City of Austin,../images/coa1.png,../work/arr.html,http://projects.austintexas.io/resource-recovery/,,User Research | UX Design | UI & Code
-Community Data Portal,../images/oa1.png,../work/dataportal.html,,https://github.com/amaliebarras/data-portal-new, UX Design | UI & Code
-Dominican Joe Coffee,../images/dojo.png,../work/dominicanjoe.html,http://amaliebarras.github.io/restaurant-redesign/,https://github.com/amaliebarras/restaurant-redesign, UX Design | UI & Code
-RED Arena Therapeutic Riding Center,../images/redarena.png,/work/redarena.html,,https://github.com/amaliebarras/redarena-app,UX Design
-Huddle,../images/huddle.png,../work/huddle.html,https://invis.io/UB7G76ARQ#/151679692_Home,https://github.com/amaliebarras/kickball-app, UX Design
-EA,../images/ea.png,/work/ea.html,,,User Research
+title,screenshot,casestudy,liveUrl,ghUrl,subtitle,headline
+Cognizant Accelerator | Directory,../images/2019redesign/bookoffaces.jpeg,../work/cognizant.html,https://lp02-team-5-mock-client.herokuapp.com/,,UX Design | UI & Code,Eliminating the Awkwardness in Figuring Out Who's Who
+City of Austin | Recycling,../images/2019redesign/recycling.jpeg,../work/arr.html,http://projects.austintexas.io/resource-recovery/,,User Research | UX Design | UI & Code,Finding and Trying New Ways to Help Residents Recycle and Compost Better
+Open Austin | Community Data Portal,../images/2019redesign/austin.jpeg,../work/dataportal.html,,https://github.com/amaliebarras/data-portal-new, UX Design | UI & Code,Creating A Directory of Local Datasets not Maintained by the City
+Dominican Joe Coffee | Website,../images/2019redesign/dojo.jpeg,../work/dominicanjoe.html,http://amaliebarras.github.io/restaurant-redesign/,https://github.com/amaliebarras/restaurant-redesign, UX Design | UI & Code,Doing Justice to an awesome origin story
+RED Arena Therapeutic Riding Center | Barn Management,../images/2019redesign/barn.jpeg,/work/redarena.html,,https://github.com/amaliebarras/redarena-app,UX Design,Helping a Therapeutic Horse Riding Center Manage Its Volunteers and Horses
+Huddle | Rec Sports Team Communication,../images/2019redesign/kickbase.jpeg,../work/huddle.html,https://invis.io/UB7G76ARQ#/151679692_Home,https://github.com/amaliebarras/kickball-app, UX Design,Getting rec sports teams on the same page so they can focus on kicking ass
+EA | Support Site Optimization,../images/2019redesign/game.jpeg,/work/ea.html,,,User Research,Understanding if Help Websites Really Help and Helping them to Help Better

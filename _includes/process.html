@@ -1,0 +1,78 @@
+<div id = "process" class = "process">
+
+    <h2>process</h2>
+
+      <h3>research methods</h3>
+
+      <div class ="toolcontent row">
+          <div class = "col-6">
+              <ul>
+                  <li>product discovery</li>
+                  <li>data analysis</li>
+                  <li>SME interviews</li>
+              </ul>
+          </div>
+          <div class = "col-5">
+              <ul>
+                  <li>user interviews</li>
+                  <li>contextual inquiry</li>
+                  <li>artifact co-creation</li>
+                  <li>workshop facilitation</li>
+              </ul>
+          </div>
+      <div>
+
+      <h3>research tools</h3>
+
+      <div class = "toolcontent researchstack row">
+            {% for info in site.data.researchstack %}
+                  <div class = "skilltoolwrapper col-4">
+                      <a href = "{{ info.url }}">
+                          <img src ="{{ info.icon }}">
+                          <div>
+                              <h3>{{ info.title }}</h3>
+                          </div>
+                      </a>
+                      <p>{{ info.description }}</p>
+                  </div>
+            {% endfor %}
+      </div>
+
+      <h3>design methods</h3>
+
+      <div class = "row toolcontent ">
+          <div class = "col col-6">
+              <ul>
+                  <li>user stories</li>
+                  <li>sketching</li>
+                  <li>design studio</li>
+                  <li>wireframing</li>
+              </ul>
+          </div>
+          <div class = "col col-6">
+              <ul>
+                  <li>user flows</li>
+                  <li>low-fidelity prototyping</li>
+                  <li>style guide creation</li>
+                  <li>high-fidelity prototyping</li>
+              </ul>
+          </div>
+      </div>
+
+      <h3>design tools</h3>
+
+      <div class = "toolcontent designstack row">
+          {% for info in site.data.designstack %}
+                <div class = "skilltoolwrapper col-3">
+                      <a href = "{{ info.url }}">
+                          <img "class = col-6" src ="{{ info.icon }}">
+                          <div "class = col-6"
+                              <h3>{{ info.title }}</h3>
+                          </div>
+                      </a>
+                      <p>{{ info.description }}</p>
+                </div>
+          {% endfor %}
+      </div>
+
+</div>
