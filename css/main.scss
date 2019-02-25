@@ -186,13 +186,17 @@ $on-laptop:        800px;
             }
         }
         .icons {
+          p {
+            font-size: 0.65em;
+            max-width: 70%;
+            margin: -20px auto 0 auto;
+            color: $brand-color;
+          }
           .iconwrapper {
             margin-top: 2em;
             height: 6em;
             text-align: center;
-              p {
-                font-size: 1em;
-              }
+
             a {
               font-size: 1.25em;
                 padding: 0.5em;
@@ -319,9 +323,8 @@ $on-laptop:        800px;
         padding: 1em;
         height: 350px;
         img {
-          max-height:170px;
-          width: 100%;
-          object-fit: cover;
+            max-height:170px;
+            object-fit: cover;
           }
         a {
             color: $brand-color;
