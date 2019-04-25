@@ -74,6 +74,8 @@ li {
     > ol {
          margin-bottom: 0;
     }
+    font-size: 0.75em;
+
 }
 
 
@@ -85,7 +87,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
-
+b {font-weight: 500;
+}
 
 /**
  * Links
