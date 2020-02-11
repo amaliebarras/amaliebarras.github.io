@@ -313,31 +313,34 @@ $on-laptop:        800px;
         box-sizing: border-box;
         display: inline;
     }
+
     .piece {
-        text-align: center;
         box-sizing: border-box;
         float: left;
         display: inline;
         margin: 1em 0.5em 1em 0em;
         background-color: $grey-color;
         padding: 1em;
-        height: 350px;
+
         img {
-            max-height:170px;
-            object-fit: cover;
+            -webkit-filter: grayscale(50%);
+            filter: grayscale(50%);
+            &:hover {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            }
           }
+
         a {
             color: $brand-color;
-            &:hover {
-                text-decoration: none;
-                h3, h4, h5, {
-                  color: $line-color;
+                &:hover {
+                    text-decoration: none;
+                      h4, h6, h5, {
+                        color: $line-color;
+                      }
                 }
-            }
         }
-        h2 {
-            margin: 1em 0em;
-        }
+
         h4 {
         margin: 8px 0;
         font-weight: bold;
@@ -345,25 +348,11 @@ $on-laptop:        800px;
         h5 {
             color: $text-color;
         }
-
         h6 {
           text-transform: uppercase;
         }
 
-        .images {
-            &:hover {
-            -webkit-filter: grayscale(50%);
-            filter: grayscale(50%);
-            }
-            a {
-            padding: 0;
-            text-align: center;
-            }
-            z-index: 1;
-            svg {
-              width: 200%;
-            }
-        }
+
         @media screen and (max-width: 916px) {
             div {
                 margin: auto;

@@ -1,9 +1,5 @@
-title,screenshot,casestudy,liveUrl,ghUrl,subtitle,headline,bootcamp
-Cognizant Accelerator | Pharmacovigilance,../images/2019redesign/pharma.jpeg,../work/cognizantpharmacovigilence.html,,,User Research | UX Design,Conducting User validation to de-risk a multi-million-dollar funding decision,0
-Cognizant Accelerator | Directory,../images/2019redesign/bookoffaces.jpeg,../work/cognizant.html,https://lp02-team-5-mock-client.herokuapp.com/,,UX Design | UI & Code,Eliminating the awkwardness in figuring out who's who,0
-City of Austin | Recycling,../images/2019redesign/recycling.jpeg,../work/arr.html,http://projects.austintexas.io/resource-recovery/,,User Research | UX Design | UI & Code,Finding and trying new ways to help residents recycle and compost better,0
-EA | Support Site Optimization,../images/2019redesign/game.jpeg,/work/ea.html,,,User Research,Understanding if our help website really helped and helping it help hetter,0
-The Iron Yard | Dominican Joe Coffeeshop Website,../images/2019redesign/dojo.jpeg,../work/dominicanjoe.html,http://amaliebarras.github.io/restaurant-redesign/,https://github.com/amaliebarras/restaurant-redesign, UX Design | UI & Code,Doing justice to an awesome origin story,1
-The Iron Yard | Open Austin Community Data Portal,../images/2019redesign/austin.jpeg,../work/dataportal.html,,https://github.com/amaliebarras/data-portal-new, UX Design | UI & Code,Creating a directory of local datasets not maintained by the city,1
-The Iron Yard | RED Arena Therapeutic Riding Center Barn Management,../images/2019redesign/barn.jpeg,/work/redarena.html,,https://github.com/amaliebarras/redarena-app,UX Design,Helping a therapeutic horse riding center manage its volunteers and horses,1
-The Iron Yard | Rec Sports Team Communication,../images/2019redesign/kickbase.jpeg,../work/huddle.html,https://invis.io/UB7G76ARQ#/151679692_Home,https://github.com/amaliebarras/kickball-app, UX Design,Getting rec sports teams on the same page so they can focus on kicking ass,1
+title,screenshot,casestudy,liveUrl,ghUrl,subtitle,headline
+Google | User-Generated Street View,../images/2019redesign/streetview.jpeg,,,,User Research,Coming Soon
+Cognizant Accelerator | Pharmacovigilance,../images/2019redesign/pharma.jpeg,../work/cognizantpharmacovigilence.html,,,User Research | UX Design,Conducting User validation to de-risk a multi-million-dollar funding decision
+City of Austin | Recycling,../images/2019redesign/recycling.jpeg,../work/arr.html,http://projects.austintexas.io/resource-recovery/,,User Research | UX Design | UI & Code,Finding and trying new ways to help residents recycle and compost better
+EA | Support Site Optimization,../images/2019redesign/game.jpeg,/work/ea.html,,,User Research,Understanding if our help website really helped and helping it help better

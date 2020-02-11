@@ -4,12 +4,12 @@
 			<div class="pieces">
 					<div class="row">
 						  {% for info in site.data.work %}
-									<div class="piece col col-6">
+									<div class="piece col col-12">
 												<a target = "blank" href = "{{ info.casestudy }}">
-														<img src="{{ info.screenshot }}" />
-														<h4>{{ info.title }}</h4>
-														<h6>{{ info.subtitle }}</h6>
-														<h5>{{ info.headline }}</h5>
+													<h4>{{ info.title }}</h4>
+													<h6>{{ info.subtitle }}</h6>
+													<h5>{{ info.headline }}</h5>
+													<img src="{{ info.screenshot }}" />
 												</a>
 									</div>
 						  {% endfor %}
