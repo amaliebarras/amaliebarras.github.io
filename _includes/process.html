@@ -4,25 +4,39 @@
 
       <h3>research methods</h3>
 
-      <div class ="toolcontent row">
-          <div class = "col-6">
+      <div class ="methodpics row">
+          <img class = "col-4" src ="./images/methodpics/interview.jpg">
+          <img class = "col-4" src ="./images/methodpics/ideate.jpg">
+          <img class = "col-4" src ="./images/methodpics/chart.jpg">
+      </div>
+
+      <div class ="methodlist row">
+          <div class = "col-4">
               <ul>
                   <li>User Segmentation</li>
-                  <li>Literature Review</li>
                   <li>In-depth Interviews</li>
                   <li>Contextual Inquiry</li>
                   <li>Remote Research</li>
-                    <li>Journey Mapping</li>
+                  <li>Unmoderated Studies</li>
+                  <li>Usability Testing</li>
               </ul>
           </div>
-          <div class = "col-5">
+          <div class = "col-4">
               <ul>
+                  <li>Literature Review</li>
+                  <li>Journey Mapping</li>
                   <li>Jobs-to-be-Done</li>
-                  <li>Unmoderated Studies</li>
-                  <li>Quantitative Surveys</li>
-                  <li>Data Visualization</li>
                   <li>Artifact Co-creation</li>
                   <li>Workshop Facilitation</li>
+              </ul>
+          </div>
+          <div class = "col-3">
+              <ul>
+                  <li>Segmentation Analysis</li>
+                  <li>Funnel Analysis </li>
+                  <li>A/B Testing</li>
+                  <li>Satisfaction Surveys</li>
+                  <li>Data Visualization</li>
               </ul>
           </div>
       <div>
@@ -31,21 +45,20 @@
 
       <div class = "toolcontent researchstack row">
             {% for info in site.data.researchstack %}
-                  <div class = "skilltoolwrapper col-4">
+                  <div class = "skilltoolwrapper">
                       <a href = "{{ info.url }}">
-                          <img src ="{{ info.icon }}">
-                          <div>
-                              <h3>{{ info.title }}</h3>
+                          <img class = "col-2" src ="{{ info.icon }}">
+                          <div class ="col-10">
+                              <h4>{{ info.title }}</h4> </a>
+                              <p>{{ info.description }}</p>
                           </div>
-                      </a>
-                      <p>{{ info.description }}</p>
                   </div>
             {% endfor %}
       </div>
 
       <h3>design methods</h3>
 
-      <div class = "row toolcontent ">
+      <div class = "row">
           <div class = "col col-6">
               <ul>
                   <li>User Stories</li>
@@ -68,14 +81,15 @@
 
       <div class = "toolcontent designstack row">
           {% for info in site.data.designstack %}
-                <div class = "skilltoolwrapper col-3">
+                <div class = "skilltoolwrapper">
                       <a href = "{{ info.url }}">
-                          <img "class = col-6" src ="{{ info.icon }}">
-                          <div "class = col-6"
-                              <h3>{{ info.title }}</h3>
+                          <img class = "col-2" src ="{{ info.icon }}">
+                          <div class = "col-10">
+                              <h4>{{ info.title }}</h4></a>
+                              <p>{{ info.description }}</p>
                           </div>
-                      </a>
-                      <p>{{ info.description }}</p>
+
+
                 </div>
           {% endfor %}
       </div>

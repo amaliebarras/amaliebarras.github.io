@@ -263,6 +263,11 @@ $on-laptop:        800px;
       font-size: 24px;
       color: $brand-color;
     }
+    .aboutpic {
+      height: 300px;
+      width: auto;
+      margin-bottom: 1em;
+    }
     .aboutjpg {
         margin-bottom: 0.5em;
         display: block;
@@ -365,29 +370,35 @@ $on-laptop:        800px;
 
 .process {
     h3 {
+      clear: both;
       margin-top: 1em;
     }
 
-    .toolcontent {
+    .methodpics {
+      margin-bottom: 1em;
+    }
 
-        h4 {
-            margin-top: 1em;
-        }
-        img {
-          margin-bottom: 1em;
-        }
-        .skilltoolwrapper {
-          box-sizing: border-box;
-          float: left;
-          display: inline;
-          margin: 1em 0.5em 1em 0em;
-          background-color: $grey-color;
-          padding: 1em;
-          height: 500px;
-          text-align: center;
+    .methodlist {
+      li {
+          font-size: 16px;
+      }
+    }
+
+    .toolcontent {
+      background-color: $grey-color;
+      }
+
+    .skilltoolwrapper {
+      float: left;
+      padding: 1em;
+      margin: 1em 0.5em 1em 0em;
+          img {
+            height: 90px;
+            margin-right: 1em;
+            width: auto;
+          }
           p {
-            font-size: 12px;
-            text-align: left;
+            font-size: 11px;
           }
         }
 
@@ -397,14 +408,11 @@ $on-laptop:        800px;
                 display: block;
                 width: 100%;
                 box-sizing: border-box;
-                height: 300px;
                 img {
                   max-height:125px;
                 }
             }
         }
-
-  }
 
 }
 
@@ -413,7 +421,6 @@ $on-laptop:        800px;
 .contact {
       margin-top: 2em;
       .invite {
-        max-width: 60%;
         .illustration {
             margin: auto;
             height: 200px;
